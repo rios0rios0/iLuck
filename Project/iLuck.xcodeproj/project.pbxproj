@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		117CE039153A1678003A8F54 /* Play.wav in Resources */ = {isa = PBXBuildFile; fileRef = 117CE037153A1678003A8F54 /* Play.wav */; };
+		117CE03A153A1678003A8F54 /* Winner.wav in Resources */ = {isa = PBXBuildFile; fileRef = 117CE038153A1678003A8F54 /* Winner.wav */; };
+		11B022CE1539F853003D4445 /* Apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B022CD1539F853003D4445 /* Apple.png */; };
+		11B022D21539F864003D4445 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B022D11539F864003D4445 /* Default.png */; };
+		11B022D41539F86B003D4445 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B022D31539F86B003D4445 /* Default@2x.png */; };
+		11B022D61539F96E003D4445 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B022D51539F96E003D4445 /* Background.png */; };
+		11B6BE4E1538F63E002E4C91 /* Button Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B6BE4C1538F63E002E4C91 /* Button Normal.png */; };
+		11B6BE4F1538F63E002E4C91 /* Button Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B6BE4D1538F63E002E4C91 /* Button Selected.png */; };
+		11B866D215386A7300EA25FE /* Google.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B866CC15386A7300EA25FE /* Google.png */; };
+		11B866D415386A7300EA25FE /* Microsoft.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B866CE15386A7300EA25FE /* Microsoft.png */; };
+		11B866D515386A7300EA25FE /* Windows.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B866CF15386A7300EA25FE /* Windows.png */; };
+		11B866E01538745500EA25FE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B866DF1538745500EA25FE /* AudioToolbox.framework */; };
+		11B9D60115377192008B8379 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B9D60015377192008B8379 /* MainWindow.xib */; };
+		11B9D60A153771E5008B8379 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B9D609153771E5008B8379 /* MasterViewController.m */; };
+		11BF55901539B9CA0087D4AE /* Mac.png in Resources */ = {isa = PBXBuildFile; fileRef = 11BF558E1539B9CA0087D4AE /* Mac.png */; };
+		11BF55921539BC340087D4AE /* Android.png in Resources */ = {isa = PBXBuildFile; fileRef = 11BF55911539BC340087D4AE /* Android.png */; };
+		11BF559A1539BF790087D4AE /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 11BF55951539BF790087D4AE /* Icon-72.png */; };
+		11BF559B1539BF790087D4AE /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 11BF55961539BF790087D4AE /* Icon-Small-50.png */; };
+		11BF559C1539BF790087D4AE /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 11BF55971539BF790087D4AE /* Icon-Small.png */; };
+		11BF559D1539BF790087D4AE /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11BF55981539BF790087D4AE /* Icon-Small@2x.png */; };
+		11BF559E1539BF790087D4AE /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 11BF55991539BF790087D4AE /* iTunesArtwork */; };
+		11BF55A01539BF8F0087D4AE /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 11BF559F1539BF8F0087D4AE /* Icon.png */; };
+		11BF55A21539BF950087D4AE /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11BF55A11539BF950087D4AE /* Icon@2x.png */; };
+		11FD9DC015371F510006A651 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FD9DBF15371F510006A651 /* UIKit.framework */; };
+		11FD9DC215371F510006A651 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FD9DC115371F510006A651 /* Foundation.framework */; };
+		11FD9DC415371F510006A651 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11FD9DC315371F510006A651 /* CoreGraphics.framework */; };
+		11FD9DCA15371F510006A651 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11FD9DC815371F510006A651 /* InfoPlist.strings */; };
+		11FD9DCC15371F510006A651 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FD9DCB15371F510006A651 /* main.m */; };
+		11FD9DD015371F510006A651 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FD9DCF15371F510006A651 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		117CE037153A1678003A8F54 /* Play.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Play.wav; sourceTree = "<group>"; };
+		117CE038153A1678003A8F54 /* Winner.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Winner.wav; sourceTree = "<group>"; };
+		11B022CD1539F853003D4445 /* Apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apple.png; sourceTree = "<group>"; };
+		11B022D11539F864003D4445 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		11B022D31539F86B003D4445 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		11B022D51539F96E003D4445 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		11B6BE4C1538F63E002E4C91 /* Button Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Normal.png"; sourceTree = "<group>"; };
+		11B6BE4D1538F63E002E4C91 /* Button Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Selected.png"; sourceTree = "<group>"; };
+		11B866CC15386A7300EA25FE /* Google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Google.png; sourceTree = "<group>"; };
+		11B866CE15386A7300EA25FE /* Microsoft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Microsoft.png; sourceTree = "<group>"; };
+		11B866CF15386A7300EA25FE /* Windows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Windows.png; sourceTree = "<group>"; };
+		11B866DF1538745500EA25FE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		11B9D60015377192008B8379 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		11B9D608153771E5008B8379 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		11B9D609153771E5008B8379 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		11BF558E1539B9CA0087D4AE /* Mac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mac.png; sourceTree = "<group>"; };
+		11BF55911539BC340087D4AE /* Android.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Android.png; sourceTree = "<group>"; };
+		11BF55951539BF790087D4AE /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		11BF55961539BF790087D4AE /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		11BF55971539BF790087D4AE /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		11BF55981539BF790087D4AE /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		11BF55991539BF790087D4AE /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		11BF559F1539BF8F0087D4AE /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		11BF55A11539BF950087D4AE /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		11FD9DBB15371F500006A651 /* iLuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FD9DBF15371F510006A651 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11FD9DC115371F510006A651 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11FD9DC315371F510006A651 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11FD9DC715371F510006A651 /* iLuck-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iLuck-Info.plist"; sourceTree = "<group>"; };
+		11FD9DC915371F510006A651 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11FD9DCB15371F510006A651 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11FD9DCD15371F510006A651 /* iLuck-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iLuck-Prefix.pch"; sourceTree = "<group>"; };
+		11FD9DCE15371F510006A651 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11FD9DCF15371F510006A651 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11FD9DB815371F500006A651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B866E01538745500EA25FE /* AudioToolbox.framework in Frameworks */,
+				11FD9DC015371F510006A651 /* UIKit.framework in Frameworks */,
+				11FD9DC215371F510006A651 /* Foundation.framework in Frameworks */,
+				11FD9DC415371F510006A651 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11FD9DB015371F500006A651 = {
+			isa = PBXGroup;
+			children = (
+				11FD9DC515371F510006A651 /* iLuck */,
+				11FD9DBE15371F510006A651 /* Frameworks */,
+				11FD9DBC15371F500006A651 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11FD9DBC15371F500006A651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11FD9DBB15371F500006A651 /* iLuck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11FD9DBE15371F510006A651 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11FD9DBF15371F510006A651 /* UIKit.framework */,
+				11FD9DC115371F510006A651 /* Foundation.framework */,
+				11FD9DC315371F510006A651 /* CoreGraphics.framework */,
+				11B866DF1538745500EA25FE /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11FD9DC515371F510006A651 /* iLuck */ = {
+			isa = PBXGroup;
+			children = (
+				11FD9DCE15371F510006A651 /* AppDelegate.h */,
+				11FD9DCF15371F510006A651 /* AppDelegate.m */,
+				11B9D608153771E5008B8379 /* MasterViewController.h */,
+				11B9D609153771E5008B8379 /* MasterViewController.m */,
+				11FD9DC615371F510006A651 /* Supporting Files */,
+			);
+			path = iLuck;
+			sourceTree = "<group>";
+		};
+		11FD9DC615371F510006A651 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11FD9DDD15371FA70006A651 /* Sounds */,
+				11FD9DD715371F7F0006A651 /* Images */,
+				11FD9DD615371F710006A651 /* Xib */,
+				11FD9DC715371F510006A651 /* iLuck-Info.plist */,
+				11FD9DC815371F510006A651 /* InfoPlist.strings */,
+				11FD9DCB15371F510006A651 /* main.m */,
+				11FD9DCD15371F510006A651 /* iLuck-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11FD9DD615371F710006A651 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				11B9D60015377192008B8379 /* MainWindow.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+		11FD9DD715371F7F0006A651 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				11FD9DDE15371FC30006A651 /* Backgrounds */,
+				11FD9DDC15371F9C0006A651 /* PickerView */,
+				11FD9DDF15371FDC0006A651 /* Buttons */,
+				11FD9DF2153720450006A651 /* Icons */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		11FD9DDC15371F9C0006A651 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				11B022CD1539F853003D4445 /* Apple.png */,
+				11BF558E1539B9CA0087D4AE /* Mac.png */,
+				11B866CE15386A7300EA25FE /* Microsoft.png */,
+				11B866CF15386A7300EA25FE /* Windows.png */,
+				11B866CC15386A7300EA25FE /* Google.png */,
+				11BF55911539BC340087D4AE /* Android.png */,
+			);
+			name = PickerView;
+			sourceTree = "<group>";
+		};
+		11FD9DDD15371FA70006A651 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				117CE037153A1678003A8F54 /* Play.wav */,
+				117CE038153A1678003A8F54 /* Winner.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		11FD9DDE15371FC30006A651 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				11B022D11539F864003D4445 /* Default.png */,
+				11B022D31539F86B003D4445 /* Default@2x.png */,
+				11B022D51539F96E003D4445 /* Background.png */,
+			);
+			name = Backgrounds;
+			sourceTree = "<group>";
+		};
+		11FD9DDF15371FDC0006A651 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				11B6BE4C1538F63E002E4C91 /* Button Normal.png */,
+				11B6BE4D1538F63E002E4C91 /* Button Selected.png */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		11FD9DF2153720450006A651 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				11BF559F1539BF8F0087D4AE /* Icon.png */,
+				11BF55A11539BF950087D4AE /* Icon@2x.png */,
+				11BF55951539BF790087D4AE /* Icon-72.png */,
+				11BF55961539BF790087D4AE /* Icon-Small-50.png */,
+				11BF55971539BF790087D4AE /* Icon-Small.png */,
+				11BF55981539BF790087D4AE /* Icon-Small@2x.png */,
+				11BF55991539BF790087D4AE /* iTunesArtwork */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11FD9DBA15371F500006A651 /* iLuck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FD9DD315371F510006A651 /* Build configuration list for PBXNativeTarget "iLuck" */;
+			buildPhases = (
+				11FD9DB715371F500006A651 /* Sources */,
+				11FD9DB815371F500006A651 /* Frameworks */,
+				11FD9DB915371F500006A651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iLuck;
+			productName = iLuck;
+			productReference = 11FD9DBB15371F500006A651 /* iLuck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11FD9DB215371F500006A651 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 11FD9DB515371F500006A651 /* Build configuration list for PBXProject "iLuck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11FD9DB015371F500006A651;
+			productRefGroup = 11FD9DBC15371F500006A651 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11FD9DBA15371F500006A651 /* iLuck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11FD9DB915371F500006A651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FD9DCA15371F510006A651 /* InfoPlist.strings in Resources */,
+				11B9D60115377192008B8379 /* MainWindow.xib in Resources */,
+				11B866D215386A7300EA25FE /* Google.png in Resources */,
+				11B866D415386A7300EA25FE /* Microsoft.png in Resources */,
+				11B866D515386A7300EA25FE /* Windows.png in Resources */,
+				11B6BE4E1538F63E002E4C91 /* Button Normal.png in Resources */,
+				11B6BE4F1538F63E002E4C91 /* Button Selected.png in Resources */,
+				11BF55901539B9CA0087D4AE /* Mac.png in Resources */,
+				11BF55921539BC340087D4AE /* Android.png in Resources */,
+				11BF559A1539BF790087D4AE /* Icon-72.png in Resources */,
+				11BF559B1539BF790087D4AE /* Icon-Small-50.png in Resources */,
+				11BF559C1539BF790087D4AE /* Icon-Small.png in Resources */,
+				11BF559D1539BF790087D4AE /* Icon-Small@2x.png in Resources */,
+				11BF559E1539BF790087D4AE /* iTunesArtwork in Resources */,
+				11BF55A01539BF8F0087D4AE /* Icon.png in Resources */,
+				11BF55A21539BF950087D4AE /* Icon@2x.png in Resources */,
+				11B022CE1539F853003D4445 /* Apple.png in Resources */,
+				11B022D21539F864003D4445 /* Default.png in Resources */,
+				11B022D41539F86B003D4445 /* Default@2x.png in Resources */,
+				11B022D61539F96E003D4445 /* Background.png in Resources */,
+				117CE039153A1678003A8F54 /* Play.wav in Resources */,
+				117CE03A153A1678003A8F54 /* Winner.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11FD9DB715371F500006A651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FD9DCC15371F510006A651 /* main.m in Sources */,
+				11FD9DD015371F510006A651 /* AppDelegate.m in Sources */,
+				11B9D60A153771E5008B8379 /* MasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11FD9DC815371F510006A651 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11FD9DC915371F510006A651 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11FD9DD115371F510006A651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11FD9DD215371F510006A651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11FD9DD415371F510006A651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iLuck/iLuck-Prefix.pch";
+				INFOPLIST_FILE = "iLuck/iLuck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11FD9DD515371F510006A651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iLuck/iLuck-Prefix.pch";
+				INFOPLIST_FILE = "iLuck/iLuck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11FD9DB515371F500006A651 /* Build configuration list for PBXProject "iLuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FD9DD115371F510006A651 /* Debug */,
+				11FD9DD215371F510006A651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11FD9DD315371F510006A651 /* Build configuration list for PBXNativeTarget "iLuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FD9DD415371F510006A651 /* Debug */,
+				11FD9DD515371F510006A651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11FD9DB215371F500006A651 /* Project object */;
+}
